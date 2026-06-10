@@ -161,6 +161,8 @@ footer {
   footer {
     & .upper-footer {
       min-height: fit-content;
+      justify-items: center;
+      margin: 0 auto;
       grid-template-columns: 1fr;
       padding: 20px 40px 100px 40px;
       gap: 40px;
@@ -169,24 +171,31 @@ footer {
       }
       & div {
         & .logo {
+          justify-items: center;
+          margin: 0 auto;
           width: 80%;
         }
         & p {
           width: 100%;
           text-align: center;
         }
+        & h3 {
+          text-align: center;
+        }
         & .line {
           width: 80px;
-          margin: 10px 0px;
+          margin: 10px auto;
         }
         & ul {
           gap: 10px;
+          text-align: center;
+          padding-left: 0px;
         }
       }
     }
-    & .lower-footer{
-     top: 91%;
-    left: 32%;   
+    & .lower-footer {
+      top: 91%;
+      left: 32%;
     }
   }
 }
