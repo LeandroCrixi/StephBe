@@ -27,16 +27,38 @@
   }
 }
 
+@media (max-width: 1030px) {
+  .hero-section {
+    & .hero-content {
+      padding: 80px;
+    }
+  }
+}
+
+@media (max-width: 430px) {
+  .hero-section {
+    & .hero-content {
+      padding: 20px;
+    }
+  }
+}
+
 .what-i-do {
   padding: 80px 0px;
   text-align: center;
-  & h2 {
-    font: var(--font-h2);
-    padding-bottom: 20px;
-  }
   & p {
     font: var(--font-p3);
     font-weight: 300;
+  }
+  & .w-i-d {
+    & h2 {
+      font: var(--font-h2);
+      padding-bottom: 20px;
+    }
+    & p {
+      width: 90ch;
+      justify-self: center;
+    }
   }
   & .my-story {
     display: grid;
@@ -51,12 +73,26 @@
   }
 }
 
+@media (max-width: 430px) {
+  .what-i-do {
+    padding: 40px 20px;
+    & .w-i-d {
+      & p {
+        width: 60ch;
+      }
+    }
+    & .my-story {
+      grid-template-columns: 1fr;
+      padding: 20px;
+    }
+  }
+}
+
 .clarity-series {
   background-image: url("../../../public/img/home/clarity-series.JPG");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-
   & .clarity-series-content {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 40px 40px 40px 160px;
@@ -66,7 +102,6 @@
     a,
     span {
       color: var(--white);
-      width: 420px;
     }
     & span {
       font: var(--font-p1);
@@ -74,6 +109,8 @@
     & h3 {
       font: var(--font-h2);
       font-weight: 700;
+      width: 18ch;
+      padding-bottom: 20px;
     }
     & p {
       font: var(--font-p3);
@@ -89,7 +126,6 @@
         display: flex;
         gap: 10px;
         font: var(--font-p2);
-        list-style: square;
       }
     }
     div {
@@ -101,7 +137,28 @@
   }
 }
 
-.not-sure{
+@media (max-width: 1030px) {
+  .clarity-series {
+    & .clarity-series-content {
+      padding: 40px;
+    }
+  }
+}
+
+@media (max-width: 430px) {
+  .clarity-series {
+    & .clarity-series-content{
+      & ul{
+        gap: 4px;
+        & li{
+          align-items: center;
+        }
+      }
+    }
+  }
+}
+
+.not-sure {
   background: var(--pink);
   display: flex;
   flex-direction: column;
@@ -109,14 +166,24 @@
   padding: 80px 40px;
   justify-content: center;
   text-align: center;
-  & h4, p{
+  & h4,
+  p {
     color: var(--red);
   }
-  & h4{
+  & h4 {
     font: var(--font-h0);
   }
-  & p{
+  & p {
     font: var(--font-p1);
     padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 430px){
+  .not-sure{
+    padding: 40px 20px;
+    & p{
+      padding-bottom: 20px;
+    }
   }
 }

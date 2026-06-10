@@ -4,6 +4,11 @@ footer {
     background: var(--red);
     position: relative;
     min-height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 40px 160px;
     &::after {
       content: "";
       position: absolute;
@@ -14,11 +19,6 @@ footer {
       background: var(--white);
       clip-path: polygon(0 75%, 50% 10%, 100% 75%, 100% 100%, 0 100%);
     }
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
-    margin: 0 auto;
-    padding: 40px 160px;
     & div {
       justify-items: center;
       & h3,
@@ -140,6 +140,53 @@ footer {
       & a {
         color: var(--red);
       }
+    }
+  }
+}
+
+@media (max-width: 1030px) {
+  footer {
+    & .upper-footer {
+      padding: 40px 80px;
+      & div {
+        & ul {
+          padding-left: 60px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 430px) {
+  footer {
+    & .upper-footer {
+      min-height: fit-content;
+      grid-template-columns: 1fr;
+      padding: 20px 40px 100px 40px;
+      gap: 40px;
+      &::after {
+        height: 80px;
+      }
+      & div {
+        & .logo {
+          width: 80%;
+        }
+        & p {
+          width: 100%;
+          text-align: center;
+        }
+        & .line {
+          width: 80px;
+          margin: 10px 0px;
+        }
+        & ul {
+          gap: 10px;
+        }
+      }
+    }
+    & .lower-footer{
+     top: 91%;
+    left: 32%;   
     }
   }
 }
