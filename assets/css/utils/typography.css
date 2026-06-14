@@ -10,7 +10,7 @@
   --font-h0: 700 4.8rem/var(--line-height-heading) var(--main-font); /* 80px */
   --font-h1: 700 2.875rem/var(--line-height-heading) var(--main-font); /* 46px */
   --font-h2: 400 2.375rem/var(--line-height) var(--main-font); /* 38px */
-  --font-h3: 600 1.875rem/var(--line-height) var(--main-font); /* 30px NOT */
+  --font-h3: 700 1.875rem/var(--line-height) var(--main-font); /* 30px */
   --font-h4: 500 1.5rem/var(--line-height) var(--main-font); /* 24px NOT */
 
   /* Font Body size */

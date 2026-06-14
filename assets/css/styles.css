@@ -10,4 +10,5 @@
 @import './components/component.css';
 
 /* Importing pages styles */
-@import './modules/home.css'
+@import './modules/home.css';
+@import './modules/my-story.css';

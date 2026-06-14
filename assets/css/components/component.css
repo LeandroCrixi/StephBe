@@ -9,11 +9,11 @@
 
 .btn {
   font: var(--font-p3);
-  font-weight: 200;
-  background: var(--red2);
-  color: var(--white);
+  font-weight: 400;
   padding: 10px 20px;
   border: 1px solid transparent;
+  background: var(--red2);
+  color: var(--white);
   &:hover {
     border: 1px solid var(--white);
   }
@@ -22,7 +22,7 @@
 .btn-secondary {
   display: flex;
   font: var(--font-p3);
-  font-weight: 300;
+  font-weight: 400;
   text-decoration: underline;
   align-items: center;
   padding-top: 40px;
@@ -33,11 +33,11 @@
 
 .btn-third {
   font: var(--font-p3);
-  font-weight: 300;
-  background: var(--white);
-  color: var(--red);
+  font-weight: 400;
   padding: 10px 20px;
   border: 2px solid transparent;
+  background: var(--white);
+  color: var(--red);
   &:hover {
     border: 1px solid var(--red);
   }

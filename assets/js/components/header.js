@@ -4,7 +4,7 @@ class GlobalHeader extends HTMLElement {
     <header>
       <nav>
         <div class="logo">
-          <img src="./public/img/Logo3.svg" alt="" />
+          <a href="/"><img src="./public/img/Logo3.svg" alt="" /></a>
         </div>
         <button class="burger" aria-label="Open menu" aria-expanded="false">
             <span></span>
@@ -13,13 +13,11 @@ class GlobalHeader extends HTMLElement {
           </button>
         <ul class="nav-menu">
         <li><button class="close-menu" aria-label="Close menu">&times;</button></li>
-          <li><a href="">My Story</a></li>
+          <li><a href="../../../my-story.html">My Story</a></li>
           <li><a href="">Organisations</a></li>
           <li><a href="">Individual Performance</a></li>
           <li class="media-menu">
-            <a class="menu-a" href=""
-              >Media <img src="./public/icons/arrow-down.svg" alt=""
-            /></a>
+            <a class="menu-a" href="">Media <img src="./public/icons/arrow-down.svg" alt=""/></a>
             <ul class="dropdown-menu">
               <li><a href="">Blog</a></li>
             </ul>

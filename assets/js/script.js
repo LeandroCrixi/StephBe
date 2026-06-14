@@ -1,7 +1,9 @@
-import { currentYear } from "./modules/dom.js";
+import { currentYear, myBackground } from "./modules/dom.js";
 import {GlobalHeader} from './components/header.js'
-import {GlobalFooter} from './components/footer.js'
 import { initBurgerMenu } from "./components/burgerMenu.js";
+import {GlobalCTA} from './components/cta.js'
+import {GlobalFooter} from './components/footer.js'
 
 // currentYear()
 initBurgerMenu()
+myBackground()

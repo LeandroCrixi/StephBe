@@ -16,7 +16,7 @@ class GlobalFooter extends HTMLElement {
           <div class="line"></div>
           <ul>
             <li><a href="">Home</a></li>
-            <li><a href="">My Story</a></li>
+            <li><a href="../../../my-story.html">My Story</a></li>
             <li><a href="">Organisations</a></li>
             <li><a href="">Individual Performance</a></li>
             <li><a href="">Media</a></li>
