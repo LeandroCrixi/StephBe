@@ -1,0 +1,19 @@
+.organisations {
+  & .hero-section {
+    background: var(--white);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    & h1 {
+      font: var(--font-h1);
+      color: var(--black);
+    }
+    & h4 {
+      font: var(--font-p2);
+    }
+    & .btn-section{
+        padding: 40px 0px;
+    }
+  }
+}

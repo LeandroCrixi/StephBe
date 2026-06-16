@@ -14,7 +14,7 @@ class GlobalHeader extends HTMLElement {
         <ul class="nav-menu">
         <li><button class="close-menu" aria-label="Close menu">&times;</button></li>
           <li><a href="../../../my-story.html">My Story</a></li>
-          <li><a href="">Organisations</a></li>
+          <li><a href="../../../organisations.html">Organisations</a></li>
           <li><a href="">Individual Performance</a></li>
           <li class="media-menu">
             <a class="menu-a" href="">Media <img src="./public/icons/arrow-down.svg" alt=""/></a>

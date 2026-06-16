@@ -44,7 +44,7 @@ footer {
         padding-top: 20px;
         font: var(--font-p3);
         font-weight: 300;
-        max-width: 32ch;
+        width: 32ch;
       }
       & h3 {
         font: var(--font-h4);
