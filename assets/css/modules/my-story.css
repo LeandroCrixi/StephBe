@@ -19,7 +19,7 @@
         padding: 20px;
         gap: 20px;
         & p {
-          font: var(--font-p2);
+          font: var(--font-p1);
           font-weight: 300;
           color: var(--black);
         }
