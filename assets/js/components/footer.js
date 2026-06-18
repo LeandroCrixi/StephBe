@@ -18,7 +18,7 @@ class GlobalFooter extends HTMLElement {
             <li><a href="/">Home</a></li>
             <li><a href="../../../my-story.html">My Story</a></li>
             <li><a href="../../../organisations.html">Organisations</a></li>
-            <li><a href="">Individual Performance</a></li>
+            <li><a href="../../../individual-performance.html">Individual Performance</a></li>
             <li><a href="">Media</a></li>
             <li><a href="">Contact</a></li>
           </ul>

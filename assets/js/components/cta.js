@@ -5,7 +5,12 @@ class GlobalCTA extends HTMLElement {
         <h4>Not sure where to begin?</h4>
         <p>Schedule a consultation to explore how we can partner on your leadership journey.</p>
         <div>
-          <a href="" class="btn">Schedule a Call</a>
+          <a class="btn" 
+            data-cal-link="stephbe/catch-up"
+            data-cal-namespace="catch-up"
+            data-cal-config='{"layout":"month_view"}'>
+            Schedule a Call
+          </a>
         </div>
       </section>
         `;
