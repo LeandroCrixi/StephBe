@@ -4,7 +4,7 @@ class GlobalFooter extends HTMLElement {
     <footer>
       <div class="upper-footer">
         <div>
-          <img class="logo" src="./public/img/logo.png" alt="" />
+          <img class="logo" src="../public/img/logo.png" alt="" />
           <p>
             I’m a HR Expert with a background in IT, Retail and Aviation
             industry since 2013. Experienced in the different stages of a
@@ -16,18 +16,18 @@ class GlobalFooter extends HTMLElement {
           <div class="line"></div>
           <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="../../../my-story.html">My Story</a></li>
-            <li><a href="../../../organisations.html">Organisations</a></li>
-            <li><a href="../../../individual-performance.html">Individual Performance</a></li>
+            <li><a href="../../../my-story">My Story</a></li>
+            <li><a href="../../../organisations">Organisations</a></li>
+            <li><a href="../../../individual-performance">Individual Performance</a></li>
           </ul>
         </div>
         <div>
           <h3>Connect</h3>
           <div class="line"></div>
           <div class="connect">
-            <a href=""><img src="./public/icons/instagram.svg" alt="" /></a>
-            <a href=""><img src="./public/icons/facebook.svg" alt="" /></a>
-            <a href=""><img src="./public/icons/linkedin.svg" alt="" /></a>
+            <a href=""><img src="../public/icons/instagram.svg" alt="" /></a>
+            <a href=""><img src="../public/icons/facebook.svg" alt="" /></a>
+            <a href=""><img src="../public/icons/linkedin.svg" alt="" /></a>
           </div>
         </div>
       </div>
@@ -36,7 +36,7 @@ class GlobalFooter extends HTMLElement {
           <p>© 2026 All rights reserved.</p>
           <div class="star-wrapper">
             <span class="star-label">For Oisín</span>
-            <img src="./public/icons/star.svg" alt="Star icon" />
+            <img src="../public/icons/star.svg" alt="Star icon" />
           </div>
         </div>
         <span>Website designed and managed by <a href="https://leo-crixi.com/" target="_blank">Leo Crixi</a></span>
