@@ -6,9 +6,7 @@ class GlobalFooter extends HTMLElement {
         <div>
           <img class="logo" src="../public/img/logo.png" alt="" />
           <p>
-            I’m a HR Expert with a background in IT, Retail and Aviation
-            industry since 2013. Experienced in the different stages of a
-            company from growing a start-up to market leaders.
+            
           </p>
         </div>
         <div>
@@ -50,3 +48,8 @@ export { GlobalFooter };
 
 {/* <li><a href="">Media</a></li>
             <li><a href="">Contact</a></li> */}
+
+
+// I’m a HR Expert with a background in IT, Retail and Aviation
+//             industry since 2013. Experienced in the different stages of a
+//             company from growing a start-up to market leaders.
